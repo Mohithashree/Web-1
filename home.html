@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melodia Event Management</title>
+    <style>
+         /* Global Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #fff;
+      background-color: white;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: rgba(0, 0, 0, 0.927);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    .logo h1 {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .contact a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      height: 300px;
+      background: url('image 4.jpg') no-repeat center center/cover;
+    }
+
+    .hero .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .hero .content {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+      height: 100%;
+      text-align: left;
+      color: #fff;
+      padding: 0 20px;
+    }
+
+    .hero .content h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .hero .content h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .hero .content p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .hero .social-icons {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+
+    .hero .social-icons a img {
+      width: 30px;
+      height: 30px;
+    }
+
+    .hero button {
+      padding: 10px 20px;
+      background-color: #6c63ff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .hero button:hover {
+      background-color: #5a52e0;
+    }
+    .btn{
+        margin-right: 90%;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 4px 6px rgba(224, 220, 220, 0);
+      border-radius: 8px;
+    }
+
+    .content {
+      flex: 1;
+      min-width: 300px;
+      padding: 20px;
+    }
+
+    .content h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #000;
+    }
+
+    .content p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      color: black;
+    }
+
+    .content p:last-child {
+      margin-bottom: 0;
+    }
+
+    .video {
+      flex: 1;
+      min-width: 300px;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .video iframe {
+      width: 100%;
+      height: 100%;
+      max-width: 400px;
+      max-height: 225px;
+      border: none;
+    }
+    footer{
+      background-image: url(bg.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% 200%;
+      height: 250px;
+    }
+  
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="image 3" alt="Melodia Logo">
+          <h1>Melodia Event Management</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#venues">Wedding Venues</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+        <div class="contact">
+          <a href="tel:+918590010011">+91-859-001-0011</a>
+        </div>
+    </header>
+      <section class="hero">
+        <div class="overlay"></div>
+        <div class="content">
+          <h2>Take a Trip Into Paradise</h2>
+          <h1>Partner with Melodia Event Management in Kerala</h1>
+          <p>Kerala's #1 Event Management Company</p>
+          <div class="social-icons">
+            <a href="#"><img src="insta.jpg" alt="Instagram"></a>
+            <a href="#"><img src="you" alt="YouTube"></a>
+          </div>
+          <button class="btn">Contact Us</button>
+        </div>
+      </section>
+      <section class="container">
+        <div class="content">
+            <h1>ISO 9001:2015 CERTIFIED EVENT MANAGEMENT COMPANY IN KERALA</h1>
+            <p><i>
+              Have you ever dreamed of planning the perfect event that will be remembered forever? 
+              Look no further than Melodia® Events, the top-notch event management company in Kerala, India, 
+              that has everything you need to make your occasion an unforgettable experience.</i>
+            </p>
+            <p><i>
+              We make everything from corporate event planning and personal celebrations to even small customized 
+              event packages absolutely memorable! Contact us today to learn more about our services and how we 
+              can help you organize the top event management in Kerala.</i>
+            </p>
+          </div>
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0PhFbWAAkKM?si=k5s1fFpiQyf-QswZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </section>
+    <footer>
+      <center><h4>For further booking....</h4><br>
+        <h4>Contact</h4><br>
+        <h4>9342642092</h4><br>
+        <h4>mohi@gmail.com</h4><br>
+        <h4>"Your event, our experience."So book it quickly...</h4><br>
+        <hr><br>
+        <h4>&copy;Melodia Event management</h4>
+      </center>
+    </footer>
+</body>
+</html>
